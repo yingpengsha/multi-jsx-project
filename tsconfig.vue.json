@@ -1,4 +1,8 @@
 {
   "files": ["src/vue.tsx"],
-  "extends": "@vue/tsconfig/tsconfig.web.json"
+  "extends": "@vue/tsconfig/tsconfig.web.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "vue-jsx-runtime"
+  }
 }
