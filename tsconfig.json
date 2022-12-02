@@ -10,7 +10,10 @@
       "path": "./tsconfig.preact.json",
     },
     {
-      "path": "./tsconfig.vue.json"
+      "path": "./tsconfig.react.json"
     },
+    {
+      "path": "./tsconfig.vue.json"
+    }
   ]
 }
