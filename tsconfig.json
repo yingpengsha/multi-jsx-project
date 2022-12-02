@@ -1,0 +1,16 @@
+{
+  "files": ["./index.ts"],
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+  },
+  "references": [
+    {
+      "path": "./tsconfig.preact.json",
+    },
+    {
+      "path": "./tsconfig.vue.json"
+    },
+  ]
+}
