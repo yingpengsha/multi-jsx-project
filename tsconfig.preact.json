@@ -1,7 +1,6 @@
 {
   "files": ["src/preact.tsx"],
   "compilerOptions": {
-    "composite": true,
     "target": "ESNext",
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
@@ -15,8 +14,9 @@
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
     "jsx": "react-jsx",
-    "jsxImportSource": "preact"
+    "jsxImportSource": "preact",
+    "noEmit": false,
+    "composite": true,
   }
 }

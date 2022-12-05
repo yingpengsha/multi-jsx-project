@@ -3,6 +3,8 @@
   "extends": "@vue/tsconfig/tsconfig.web.json",
   "compilerOptions": {
     "jsx": "react-jsx",
-    "jsxImportSource": "vue-jsx-runtime"
+    "jsxImportSource": "vue-jsx-runtime",
+    "noEmit": false,
+    "composite": true
   }
 }
